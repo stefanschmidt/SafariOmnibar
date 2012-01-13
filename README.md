@@ -28,11 +28,3 @@ Usage
 =====
 
 Just type a search query in the location bar and it will perform a Google search.
-
-TODO
-====
-
-- Preference Panel
-- Let the user choose not to hide the Safari's search field
-- Search engine editor with keyword support just like Chrome's
-- Google auto-suggests injection in the completion menu
