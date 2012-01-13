@@ -475,7 +475,7 @@ static BOOL is_search_query(NSString *string)
 + (void)load
 {
     [self sharedInstance];
-    NSLog(@"Safari Omnibar %@ Loaded", self.pluginVersion);
+    // NSLog(@"Safari Omnibar %@ Loaded", self.pluginVersion);
 }
 
 @end

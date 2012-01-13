@@ -25,7 +25,9 @@
 static NSString *FirstHTTPURLStringOnGeneralPasteboard()
 {
     NSPasteboard *generalPasteboard = [NSPasteboard generalPasteboard];
-    NSArray *copiedStrings = [generalPasteboard readObjectsForClasses:[NSArray arrayWithObject:[NSString class]] options:nil];
+	NSData *stringData = [generalPasteboard dataForType:NSStringPboardType]; 
+	NSArray *copiedStrings = [NSUnarchiver unarchiveObjectWithData:stringData]; 
+
     for (NSString *maybeURLString in copiedStrings)
     {
         if ([maybeURLString hasPrefix:@"http"]) return maybeURLString;

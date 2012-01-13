@@ -12,7 +12,7 @@
 
 + (void)initUpdater
 {
-    if (self != SparkleHelper.class) return;
+    // if (self != SparkleHelper.class) return;
     
     Class SUUpdater_class = NSClassFromString(@"SUUpdater");
     if (SUUpdater_class == Nil)

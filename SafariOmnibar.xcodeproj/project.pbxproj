@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 45;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,10 +12,11 @@
 		53B2999813CA4BD800CDB6FF /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B2999713CA4BD800CDB6FF /* JRSwizzle.m */; };
 		53B299A913CB306800CDB6FF /* SearchProviders.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53B299A813CB306800CDB6FF /* SearchProviders.plist */; };
 		53DDD7FB13E810C000039E90 /* SparkleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DDD7FA13E810C000039E90 /* SparkleHelper.m */; };
-		53DDD80513E8157300039E90 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 53DDD80313E8155400039E90 /* Sparkle.framework */; };
 		53F7E26C13CA2680007FFA53 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F7E26B13CA2680007FFA53 /* Cocoa.framework */; };
 		53F7E27613CA2680007FFA53 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53F7E27413CA2680007FFA53 /* InfoPlist.strings */; };
 		53F7E27F13CA26BC007FFA53 /* SafariOmnibar.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F7E27E13CA26BC007FFA53 /* SafariOmnibar.m */; };
+		F8D1325614BFB507005288B8 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D1325514BFB507005288B8 /* Sparkle.framework */; };
+		F8D1326014BFB575005288B8 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8D1325514BFB507005288B8 /* Sparkle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +26,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				53DDD80513E8157300039E90 /* Sparkle.framework in CopyFiles */,
+				F8D1326014BFB575005288B8 /* Sparkle.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,7 +41,6 @@
 		53B299A813CB306800CDB6FF /* SearchProviders.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SearchProviders.plist; sourceTree = "<group>"; };
 		53DDD7F913E810C000039E90 /* SparkleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SparkleHelper.h; sourceTree = "<group>"; };
 		53DDD7FA13E810C000039E90 /* SparkleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SparkleHelper.m; sourceTree = "<group>"; };
-		53DDD80313E8155400039E90 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		53F7E26813CA2680007FFA53 /* SafariOmnibar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariOmnibar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F7E26B13CA2680007FFA53 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		53F7E27313CA2680007FFA53 /* SafariOmnibar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SafariOmnibar-Info.plist"; sourceTree = "<group>"; };
@@ -48,6 +48,7 @@
 		53F7E27713CA2680007FFA53 /* SafariOmnibar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SafariOmnibar-Prefix.pch"; sourceTree = "<group>"; };
 		53F7E27D13CA26BC007FFA53 /* SafariOmnibar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafariOmnibar.h; sourceTree = "<group>"; };
 		53F7E27E13CA26BC007FFA53 /* SafariOmnibar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafariOmnibar.m; sourceTree = "<group>"; };
+		F8D1325514BFB507005288B8 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = ../../Downloads/SafariOmnibar/Sparkle.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53F7E26C13CA2680007FFA53 /* Cocoa.framework in Frameworks */,
+				F8D1325614BFB507005288B8 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +84,7 @@
 		53F7E26A13CA2680007FFA53 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53DDD80313E8155400039E90 /* Sparkle.framework */,
+				F8D1325514BFB507005288B8 /* Sparkle.framework */,
 				53F7E26B13CA2680007FFA53 /* Cocoa.framework */,
 			);
 			name = Frameworks;
@@ -148,8 +150,7 @@
 				LastUpgradeCheck = 0420;
 			};
 			buildConfigurationList = 53F7E26213CA2680007FFA53 /* Build configuration list for PBXProject "SafariOmnibar" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -254,10 +255,10 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				ONLY_ACTIVE_ARCH = YES;
 				RUN_CLANG_STATIC_ANALYZER = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.5;
 			};
 			name = Debug;
 		};
@@ -276,9 +277,9 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				RUN_CLANG_STATIC_ANALYZER = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.5;
 			};
 			name = Release;
 		};
@@ -288,6 +289,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../Downloads/SafariOmnibar\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SafariOmnibar/SafariOmnibar-Prefix.pch";
@@ -304,6 +306,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../Downloads/SafariOmnibar\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SafariOmnibar/SafariOmnibar-Prefix.pch";
