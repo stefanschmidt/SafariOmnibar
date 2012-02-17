@@ -27,4 +27,4 @@ Remove the file `~/Library/Application\ Support/SIMBL/Plugins/SafariOmnibar.bund
 Usage
 =====
 
-Just type a search query in the location bar and it will perform a Google search.
+Just type a search query in the location bar and it will perform a Google search..
