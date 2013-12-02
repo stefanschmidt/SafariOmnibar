@@ -15,7 +15,7 @@ Installation
 ============
 
 1. Install either [SIMBL](http://www.culater.net/software/SIMBL/SIMBL.php) or [PlugSuit](http://infinite-labs.net/plugsuit/) (the latter is recommended)
-2. Download the current [release](https://github.com/stefanschmidt/SafariOmnibar/downloads)
+2. Download the current [release](https://github.com/stefanschmidt/SafariOmnibar/releases/)
 3. Extract and copy SafariOmnibar.bundle to `~/Library/Application\ Support/SIMBL/Plugins`
 4. Restart Safari
 
